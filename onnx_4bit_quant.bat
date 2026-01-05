@@ -1,0 +1,2 @@
+@REM uv run -m onnxruntime.quantization.matmul_bnb4_quantizer --input super_resolution_pos.onnx --output pos-model-uint4.onnx
+uv run -m onnxruntime.quantization.matmul_bnb4_quantizer --input super_resolution_tok.onnx --output tok-model-uint4.onnx

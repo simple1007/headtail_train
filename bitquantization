@@ -1,0 +1,1 @@
+uv run -m onnxruntime.quatization.matmul_bnb4_quantizer --input --output

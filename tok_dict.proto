@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package httokenizer;
+
+message TokDict {
+  map<string, int64> dict = 1;
+}

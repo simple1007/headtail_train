@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package htpostagger;
+
+message PosDict {
+  map<string, int64> p2i = 1;
+  map<int64, string> i2p = 2;
+}

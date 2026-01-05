@@ -1,0 +1,14 @@
+__pycache__/
+korean_cnoun/
+runs/
+lstm_httokenizer/
+*.pkl
+*.onnx
+*.onnx.data
+*.txt
+*.old2
+*.old
+*.csv
+*.xslx
+*.log
+*.dict
